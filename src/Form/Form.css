@@ -1,0 +1,55 @@
+.gender{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    padding-block:30px;
+    flex-direction: column;
+    gap:3rem;
+    border: 2px solid #a32a2a;
+    margin: 3rem;
+    background-color: #212a3a;
+    color:white;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+}
+
+.form input{
+    outline: none;
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 2rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.course{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+select{
+    align-self: center;
+    transform:translateY(20%);
+    border:none;
+    outline: none;
+}
+
+.hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}

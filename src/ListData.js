@@ -1,0 +1,26 @@
+export const list=[
+    {
+        id:1,
+        name:'Yogesh',
+        age:19,
+        hobbies:['Cricket','Coding']
+    },
+    {
+        id:2,
+        name:'Roshan',
+        age:18,
+        hobbies:['Cooking','Gym']
+    },
+    {
+        id:3,
+        name:'Thug',
+        age:23,
+        hobbies:['Hacking','Tennis','Reading']
+    },
+    {
+        id:4,
+        name:'Unknown',
+        age:null,
+        hobbies:null
+    }
+    ];
