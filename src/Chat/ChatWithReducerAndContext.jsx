@@ -46,6 +46,7 @@ const DispatchContext = createContext(()=>{});
 const DispatchContextProvider = DispatchContext.Provider
 const CurrentContext = createContext({...friends[0],drafts:drafts});
 const CurrentContextProvider = CurrentContext.Provider
+
 const useDispatch = ()=>{
     return useContext(DispatchContext)
 }
